@@ -1,0 +1,91 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FDF8E2"
+    >
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#FDF8E2"
+        >
+
+        <TextView
+            android:padding="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="Gungan"
+            android:layout_gravity="center_horizontal"
+            />
+
+        <TextView
+            android:padding="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="From the Star Wars universe, Gungans were an amphibious sentient species and the native inhabitants of the planet Naboo. The various different Gungan races could live on both water and land, but often made their home in underwater cities such as Otoh Gunga."
+            />
+
+
+        <TextView
+            android:layout_margin="10dp"
+            android:paddingHorizontal="20dp"
+            android:padding="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:layout_gravity="start"
+            android:background="#FFDDD3"
+            android:text="Hidoe dalee \n-------------------------- \nhello there"
+
+            />
+
+        <TextView
+            android:layout_margin="10dp"
+            android:paddingHorizontal="20dp"
+            android:padding="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:layout_gravity="end"
+            android:background="#CBE1EF"
+            android:text=" Hidoe \n-------------------------- \n Hello"
+            />
+
+        <TextView
+            android:layout_margin="10dp"
+            android:paddingHorizontal="20dp"
+            android:padding="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:layout_gravity="start"
+            android:background="#FFDDD3"
+            android:text="Yousa want gos to party tonight? \n-------------------------- \nyou want go to party tonight?"
+
+            />
+
+        <TextView
+            android:layout_margin="10dp"
+            android:paddingHorizontal="20dp"
+            android:padding="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:layout_gravity="end"
+            android:background="#CBE1EF"
+            android:text="Mesa shu it, lets gos   \n-------------------- \n I love it, lets go"
+            />
+
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>
+

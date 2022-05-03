@@ -1,0 +1,91 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FDF8E2"
+    >
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#FDF8E2"
+        >
+
+        <TextView
+            android:padding="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="Minion"
+            android:layout_gravity="center_horizontal"
+            />
+
+        <TextView
+            android:padding="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="Minions are fictional yellow creatures that appear in Illumination's Despicable Me franchise. They're earnestly driven by the desire to serve an evil boss, though they often screw up because they're selfish, easily distracted, and generally inept."
+            />
+
+
+        <TextView
+            android:layout_margin="10dp"
+            android:paddingHorizontal="20dp"
+            android:padding="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:layout_gravity="start"
+            android:background="#FFDDD3"
+            android:text="Bello, ka am con a banana! \n-------------------------- \nHello, I am hungry!"
+
+            />
+
+        <TextView
+            android:layout_margin="10dp"
+            android:paddingHorizontal="20dp"
+            android:padding="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:layout_gravity="end"
+            android:background="#CBE1EF"
+            android:text=" no veela da ads, alska go \n-------------------------- \n no time to eat, we got go"
+            />
+
+        <TextView
+            android:layout_margin="10dp"
+            android:paddingHorizontal="20dp"
+            android:padding="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:layout_gravity="start"
+            android:background="#FFDDD3"
+            android:text="Whaaat? a gib dia!  \n-------------------------- \nwhat a bad day!"
+
+            />
+
+        <TextView
+            android:layout_margin="10dp"
+            android:paddingHorizontal="20dp"
+            android:padding="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:layout_gravity="end"
+            android:background="#CBE1EF"
+            android:text="non mucha alspudum batooay       \n-------------------- \n not much we can do"
+            />
+
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>
+

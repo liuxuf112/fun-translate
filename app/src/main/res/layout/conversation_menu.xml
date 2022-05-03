@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:paddingTop="30dp"
+
+        android:text="Pick a language "
+        android:textSize="26dp"
+        />
+
+    <Button
+        android:layout_margin="20dp"
+        android:id="@+id/pirate_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="pirate"
+        />
+
+    <Button
+        android:layout_margin="20dp"
+        android:id="@+id/yoda_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Yoda"
+        />
+
+    <Button
+        android:layout_margin="20dp"
+        android:id="@+id/gungan_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="gungan"
+        />
+
+    <Button
+        android:layout_margin="20dp"
+        android:id="@+id/groot_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="groot"
+        />
+
+    <Button
+        android:layout_margin="20dp"
+        android:id="@+id/shakespeare_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="shakespeare"
+        />
+
+    <Button
+        android:layout_margin="20dp"
+        android:id="@+id/minion_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Minion"
+        />
+
+</LinearLayout>

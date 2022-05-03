@@ -1,0 +1,91 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FDF8E2"
+    >
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#FDF8E2"
+        >
+
+        <TextView
+            android:padding="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="Shakespeare"
+            android:layout_gravity="center_horizontal"
+            />
+
+        <TextView
+            android:padding="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="William Shakespeare was a renowned English poet, playwright, and actor. Shakespeare invented many words and his style of narration in many ways was unique to his time. His ever popular works (dramas and poems) makes his language style live even today."
+            />
+
+
+        <TextView
+            android:layout_margin="10dp"
+            android:paddingHorizontal="20dp"
+            android:padding="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:layout_gravity="start"
+            android:background="#FFDDD3"
+            android:text="The daw doth bethink he is wise, but the wise sir knoweth himself to beest a daw.  \n-------------------------- \nThe fool doth think he is wise, but the wise man knows himself to be a fool."
+
+            />
+
+        <TextView
+            android:layout_margin="10dp"
+            android:paddingHorizontal="20dp"
+            android:padding="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:layout_gravity="end"
+            android:background="#CBE1EF"
+            android:text=" Thee not talking to me, right? \n-------------------------- \n You not talking to me, right?"
+            />
+
+        <TextView
+            android:layout_margin="10dp"
+            android:paddingHorizontal="20dp"
+            android:padding="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:layout_gravity="start"
+            android:background="#FFDDD3"
+            android:text="Hell is exsufflicate and all the devils art hither.  \n-------------------------- \nHell is empty and all the devils are here."
+
+            />
+
+        <TextView
+            android:layout_margin="10dp"
+            android:paddingHorizontal="20dp"
+            android:padding="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:layout_gravity="end"
+            android:background="#CBE1EF"
+            android:text=" Too complicated, can we keepeth 't simple?        \n-------------------- \n too complicated, can we keep it simple?"
+            />
+
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>
+

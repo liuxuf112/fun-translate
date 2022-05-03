@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent">
+    <LinearLayout
+
+        android:id="@+id/MainLL"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:gravity="end"
+        android:layout_gravity="end"
+        android:orientation="vertical"
+
+        android:padding="12dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/recent_translations"
+                android:textAppearance="?attr/textAppearanceHeadline5"
+
+                />
+        <Button
+            android:id="@+id/btn_view_all"
+            android:layout_marginLeft="12dp"
+            android:layout_width="wrap_content"
+            android:textColor="@color/white"
+            app:backgroundTint="?attr/colorPrimary"
+            android:layout_height="wrap_content"
+            android:text="@string/view_all_translations"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            />
+
+        </LinearLayout>
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_translation_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginBottom="30dp"
+            />
+
+
+        <TextView
+            android:id="@+id/createNewText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/create_new_translation"
+            android:textAppearance="?attr/textAppearanceHeadline5"
+            android:paddingBottom="5dp"
+            />
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/menu"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/select_translation_type"
+
+            tools:layout_editor_absoluteX="12dp">
+
+            <AutoCompleteTextView
+                android:id="@+id/auto_text_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="none" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.flexbox.FlexboxLayout
+
+            app:flexDirection="row"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:flexWrap="wrap"
+            app:alignItems="flex_end"
+            app:alignContent="space_between"
+            app:justifyContent="flex_end"
+
+
+            android:id="@+id/ll_text_input_holder"
+            >
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textInput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/type_message_hint"
+                app:layout_flexBasisPercent="80%"
+                android:layout_marginEnd="5dp"
+
+
+
+                >
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:id="@+id/editText"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"/>
+            </com.google.android.material.textfield.TextInputLayout>
+            <FrameLayout
+
+                android:id="@+id/frameLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+
+                >
+
+                <com.google.android.material.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/floating_action_button_go"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/button_go_text"
+                    android:src="@android:color/transparent"
+                    app:fabCustomSize="50dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:elevation="10dp"
+
+                    android:text="@string/button_go_text"
+                    android:textColor="@android:color/white"
+                    android:textSize="20sp" />
+            </FrameLayout>
+
+        </com.google.android.flexbox.FlexboxLayout>
+
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

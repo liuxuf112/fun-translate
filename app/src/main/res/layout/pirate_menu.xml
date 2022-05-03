@@ -1,0 +1,91 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FDF8E2"
+    >
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#FDF8E2"
+        >
+
+        <TextView
+            android:padding="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="Pirate"
+            android:layout_gravity="center_horizontal"
+            />
+
+        <TextView
+            android:padding="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="Convert from English to Pirate speak. Shiver me timbers! I be needin' t' send 'em all to Davy Jones' locker. Arrrrr!"
+            />
+
+
+        <TextView
+            android:layout_margin="10dp"
+            android:paddingHorizontal="20dp"
+            android:padding="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:layout_gravity="start"
+            android:background="#FFDDD3"
+            android:text="Ahoy matey, with a chest full of booty! me dear ol' mum, bless her black soul goes with me t' th' briny deep. \n-------------------------- \nHello sir! my mother goes with me to the ocean."
+
+            />
+
+        <TextView
+            android:layout_margin="10dp"
+            android:paddingHorizontal="20dp"
+            android:padding="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:layout_gravity="end"
+            android:background="#CBE1EF"
+            android:text=" 500 gold coin t' get on th' board \n-------------------------- \n 500 gold coin to get on the board"
+            />
+
+        <TextView
+            android:layout_margin="10dp"
+            android:paddingHorizontal="20dp"
+            android:padding="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:layout_gravity="start"
+            android:background="#FFDDD3"
+            android:text="ye wanna me t' pay this? no way  \n-------------------------- \nyou wanna me to pay this? no way"
+
+            />
+
+        <TextView
+            android:layout_margin="10dp"
+            android:paddingHorizontal="20dp"
+            android:padding="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:layout_gravity="end"
+            android:background="#CBE1EF"
+            android:text=" or I can put ye inside o' cannon fer free      \n-------------------- \n or I can put you inside of cannon for free"
+            />
+
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>
+

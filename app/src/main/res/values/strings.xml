@@ -1,0 +1,23 @@
+<resources>
+    <!-- Home Screen Strings -->
+    <string name="app_name">Fun Translations</string>
+    <string name="button_go_text">GO</string>
+    <string name="type_message_hint">Type a message…</string>
+    <string name="recent_translations">Recent Translations</string>
+    <string name="create_new_translation">Create New Translation</string>
+    <string name="select_translation_type">Translation Type</string>
+    <string name="view_translation">View Translation</string>
+    <string name="view_all_translations">View All</string>
+
+    <!-- Translation Screen Strings -->
+    <string name="original_heading">Original Text</string>
+    <string name="translation_heading">Translation Text</string>
+    <string name="original_share_text">Original text: %s</string>
+    <string name="translation_share_text">Translated text: %s</string>
+
+    <!-- App Info Strings -->
+    <string name="app_info_heading">Welcome to Fun Translations</string>
+    <string name="app_info_p1">This app\'s purpose is to translate English into interesting languages/speech that you wouldn\'t normally hear in real life, such as Yoda, Gungan, Pirate, and several more.</string>
+    <string name="app_info_p2">The API we\'re using is from https://funtranslations.com. Feel free to check out their website for other interesting translations. There are also example conversations translated that you can view. Enjoy and have fun!</string>
+
+</resources>

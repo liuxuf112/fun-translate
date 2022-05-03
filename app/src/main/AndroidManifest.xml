@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.funtranslator">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FunTranslator">
+        <activity
+            android:name=".pirate"
+            android:exported="true"
+            android:parentActivityName=".exampleConversition.conversation" />
+        <activity
+            android:name=".yoda"
+            android:exported="true"
+            android:parentActivityName=".exampleConversition.conversation" />
+        <activity
+            android:name=".groot"
+            android:exported="true"
+            android:parentActivityName=".exampleConversition.conversation" />
+        <activity
+            android:name=".gungan"
+            android:exported="true"
+            android:parentActivityName=".exampleConversition.conversation" />
+        <activity
+            android:name=".shakespeare"
+            android:exported="true"
+            android:parentActivityName=".exampleConversition.conversation" />
+        <activity
+            android:name=".minion"
+            android:exported="true"
+            android:parentActivityName=".exampleConversition.conversation" />
+        <activity
+            android:name=".exampleConversition.appinfo"
+            android:exported="true"
+            android:parentActivityName=".ui.MainActivity" />
+        <activity
+            android:name=".exampleConversition.conversation"
+            android:exported="true"
+            android:parentActivityName=".ui.MainActivity" />
+        <activity
+            android:name=".ui.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.TranslationActivity"
+            android:exported="true"
+            android:parentActivityName=".ui.MainActivity"></activity>
+        <activity
+            android:name=".ui.TranslationHistoryActivity"
+            android:exported="true"
+            android:parentActivityName=".ui.MainActivity"></activity>
+    </application>
+
+</manifest>

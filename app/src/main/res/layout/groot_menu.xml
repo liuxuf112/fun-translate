@@ -1,0 +1,91 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FDF8E2"
+    >
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#FDF8E2"
+        >
+
+        <TextView
+            android:padding="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="Groot"
+            android:layout_gravity="center_horizontal"
+            />
+
+        <TextView
+            android:padding="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="Groot is a fictional superhero appearing in American comic books published by Marvel Comics. Created by Stan Lee, the character was a hit in Guardians of the Galaxy and Avengers movies."
+            />
+
+
+        <TextView
+            android:layout_margin="10dp"
+            android:paddingHorizontal="20dp"
+            android:padding="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:layout_gravity="start"
+            android:background="#FFDDD3"
+            android:text="I am groote? \n-------------------------- \nwhat is your name?"
+
+            />
+
+        <TextView
+            android:layout_margin="10dp"
+            android:paddingHorizontal="20dp"
+            android:padding="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:layout_gravity="end"
+            android:background="#CBE1EF"
+            android:text="I am groote \n-------------------------- \n my name is groot"
+            />
+
+        <TextView
+            android:layout_margin="10dp"
+            android:paddingHorizontal="20dp"
+            android:padding="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:layout_gravity="start"
+            android:background="#FFDDD3"
+            android:text="I am groot? \n-------------------------- \nYou wanna join my adventure team?"
+
+            />
+
+        <TextView
+            android:layout_margin="10dp"
+            android:paddingHorizontal="20dp"
+            android:padding="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:layout_gravity="end"
+            android:background="#CBE1EF"
+            android:text="I am groote! \n-------------------- \n lets go!"
+            />
+
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>
+

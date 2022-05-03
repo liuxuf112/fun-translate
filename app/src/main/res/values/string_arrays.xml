@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="translations_array">
+        <item>Pirate</item>
+        <item>Yoda</item>
+        <item>Gungan</item>
+        <item>Minion</item>
+        <item>Shakespeare</item>
+        <item>Groot</item>
+
+    </string-array>
+</resources>
